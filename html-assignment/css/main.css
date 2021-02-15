@@ -33,12 +33,12 @@ text-decoration: none;
 background-color: darkslategray;
 border: 1px solid black;
 }
-/* Change backgroud color*/
+/* Change backgroud color */
 .nav a:hover,
 .nav a:focus,
 .nav a :active {
     box-shadow: 0 0 1px 0.5px black;
-    background-color: darksalmon;
+    background-color: cadetblue;
 }
 nav a:visited{
    color: orange;
