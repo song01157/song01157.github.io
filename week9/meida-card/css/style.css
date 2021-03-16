@@ -1,0 +1,79 @@
+body {
+    background-color: red;
+}
+
+/* CSS RESET */
+/* Custom CSS */
+nav {
+    background-color: rgb(255, 166, 0);
+    font-size: 0.96rem;
+    font-family: sans-serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /* padding:1rem; */
+    display: block;
+    text-align: center;
+}
+
+nav ul li {
+    border-top: 1px solid rgba(1, 1, 1, 0.2)
+}
+
+nav ul li:hover {
+    background-color: rgba(1, 1, 1, 0.2);
+
+}
+
+/* DESKTOP VIEW */
+
+@media screen and(min-width:500px) {
+         nav ul li {
+        display: inline-block;
+        border-top: none;
+    }
+    
+}
+.card img{
+    display:none;
+}
+   .card{
+
+   background-color: rgb(243,243,243);
+    border: solid 1px rgba(1,1,1,0.1)
+    
+    color: rgb(85,85,85);
+    
+    font-family: sans-serif;
+    font-size: 0.90rem;
+    
+    padding: 0.5rem;
+} 
+.card .content h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(70,114,76)
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+}
+/* TABLET */
+
+@media screen and (min-width 400px) and (max-width:600px){
+    .card img{
+        display:block;
+        width:100px;
+        float: left;
+        margin-right: 0.5rem;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width:500px){
+    .card img{
+        width:100%
+    }
+    .card{
+        max-width:300px;
+    }
+}
