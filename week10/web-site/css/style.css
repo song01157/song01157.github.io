@@ -1,0 +1,148 @@
+body {
+    background-color: red;
+}
+
+/* CSS RESET */
+/* Custom CSS */
+nav {
+    background-color: rgb(255, 166, 0);
+    font-size: 0.96rem;
+    font-family: sans-serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /* padding:1rem; */
+    display: block;
+    text-align: center;
+}
+
+nav ul li {
+    border-top: 1px solid rgba(1, 1, 1, 0.2)
+}
+
+nav ul li:hover {
+    background-color: rgba(1, 1, 1, 0.2);
+
+}
+
+/* DESKTOP VIEW */
+
+@media screen and(min-width:500px) {
+    nav ul li {
+        display: inline-block;
+        border-top: none;
+    }
+
+}
+
+/* CSS RESET */
+
+/* Custom CSS */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    font-size: 5.063rem;
+    font-weight: bold;
+    /* top left right bottom */
+    margin: 1rem 0 0.5rem;
+}
+
+h2 {
+    font-size: 3.375rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.container {
+    padding: 1rem
+}
+
+.desktop-logo {
+    display: none;
+
+}
+
+.mobile-logo {
+    max-width: 150px;
+}
+
+.banner {
+    height: 600px;
+    background: grey url("../image/mobile-banner.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+
+.banner h1 {
+    margin: 0;
+    padding-top: 250px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Main */
+/* Mobile app section */
+.app img {
+    width: 100%;
+}
+
+.app .btn {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.app .btn:hover {
+    background-color: #00ADD8;
+}
+
+/* footer */
+footer {
+    border-top: 2px solid;
+    margin-top: 1.5rem;
+    padding: 1.5rem 0;
+
+}
+
+footer .copy {
+    text-align: right;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a hover {
+    color: #00ADD8;
+}
+
+/* Desktop */
+@media screen and (min-width:600px) {
+    html {
+        font-size: 16px;
+    }
+
+    .mobile-logo {
+        display: none;
+    }
+
+    .desktop-logo {
+        display: inline
+    }
+}
