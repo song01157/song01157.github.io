@@ -1,0 +1,695 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)*/
+
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+footer,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 1;
+}
+
+/* Container */
+body {
+    max-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+nav {
+    background-color: #222;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: stretch;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #C78C06;
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    background-color: #C78C06;
+    width: 97px;
+    padding-right: calc(100% - 97px);
+}
+
+.current {
+    background-color: #C78C06;
+    color: #222;
+}
+
+/* Search Button */
+nav form input {
+    width: 100%;
+    height: 2em;
+}
+
+nav form button {
+    background-color: #222;
+    border: px #C78C06 solid;
+    height: inherit;
+}
+
+nav form button i {
+    color: #C78C06;
+}
+
+/* Welcome to Three Star Media page */
+.welcome-image {
+    background-image: url(../images/main-banner.jpg);
+    background-position: center;
+    max-height: 1004px;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+/* text */
+.welcome-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Welcome content font */
+.welcome-text h1 {
+    color: white;
+    font-size: 450%;
+    font-weight: bold;
+    font-kerning: auto;
+    line-height: 150%;
+}
+
+.welcome-text article {
+    color: white;
+    line-height: 140%;
+    padding-bottom: 3em;
+}
+
+.btn-connect {
+    background-color: #C78C06;
+    text-decoration: none;
+    color: #222;
+    padding: 2.5em
+}
+
+/* About Us page */
+.about {
+    background-color: #ffe6ac;
+    padding: 2em;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about h2 {
+    font-size: 200%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.about p {
+    line-height: 130%;
+    padding-bottom: 1em;
+}
+
+/* Our Services page */
+.service {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+.service h2 {
+    font-size: 300%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+.service img {
+    width: 100%;
+}
+
+.service div {
+    padding: 1em;
+    padding-bottom: 3em;
+    background-color: #ffe6ac;
+    margin-bottom: 1em;
+    line-height: 130%;
+}
+
+.service div h3 {
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    line-height: 110%;
+}
+
+.service p {
+    padding-bottom: 3em;
+}
+
+/* Each button */
+.service a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    padding: 1em;
+}
+
+/* Our Vision page */
+.vision {
+    background-image: url(../images/vision.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    padding: 1em;
+    padding-bottom: 5em;
+}
+
+.vision div h2 {
+    font-size: 250%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+    line-height: 130%;
+}
+
+.vision div p {
+    line-height: 130%;
+    padding-bottom: 3.5em;
+}
+
+.vision div a {
+    background-color: #222;
+    color: white;
+    border: #C78C06 1px solid;
+    text-decoration: none;
+    font-size: 130%;
+    padding: 1.5em;
+}
+
+/* Our Team */
+.team {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+.team h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team h3 {
+    font-size: 250%;
+    font-weight: bold;
+    padding-top: 0.5em;
+    line-height: 130%;
+}
+
+.team h4 {
+    font-size: 150%;
+    font-weight: bold;
+    border-bottom: #C78C06 solid 2px;
+    line-height: 130%;
+    margin-bottom: 1em;
+}
+
+.team p {
+    line-height: 130%;
+}
+
+.doe,
+.bob {
+    background-color: #ffe6ac;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+
+/* Contact Us page */
+.contact {
+    padding: 1em;
+}
+
+.contact h2 {
+    font-size: 300%;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.contact h4 {
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 130%;
+    padding-bottom: 1rem;
+}
+
+.contactdiv {
+    width: 150%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contactdiv>div {
+    margin-bottom: 1em;
+}
+
+/* Send us a message type */
+.contactdiv form input {
+    border: #222 1px solid;
+    width: 100%;
+    height: 2rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contactdiv form textarea {
+    border: #222 1px solid;
+    height: 6rem;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contactdiv .btn-contact {
+    color: #C78C06;
+    background-color: #222;
+    font-size: 150%;
+    border: #222 1px solid;
+    margin-bottom: 1rem;
+}
+
+/* Location */
+.contactdiv .location {
+    order: 2;
+}
+
+/* Hours of operation table */
+.contactdiv .operation {
+    order: 1;
+}
+
+.operation table {
+    border: solid #222 1px;
+    width: 100%;
+}
+
+.operation thead {
+    background-color: #ffe6ac;
+    border: solid #222 1px;
+}
+
+.operation thead tr th {
+    border: solid #222 1px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.operation tbody tr td {
+    border: solid #222 1px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/*  footer  */
+footer {
+    background-color: #222;
+    color: #C78C06;
+    margin: 0;
+    padding: 1em;
+    line-height: 200%;
+}
+
+footer a {
+    color: #C78C06;
+    text-decoration: underline;
+}
+
+
+
+/*  Media Query */
+@media screen and (min-width: 760px) {
+    nav {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    nav ul li .logo {
+        padding: 0px;
+        margin-right: 3em;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    nav ul li {
+        width: 60%;
+        justify-content: center;
+    }
+
+    nav ul li form input {
+        width: 70%;
+    }
+
+    /* Welcome to Three Star Media page */
+    .welcome-text {
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* About Us*/
+    .about {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .about img {
+        max-width: 50%;
+        padding-right: 1em;
+        float: left;
+
+    }
+
+    .about h2 {
+        padding-top: 0px;
+        padding-bottom: 1.5rem;
+    }
+
+    /* Our Services */
+    .service {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .service div h3 {
+        font-size: 150%;
+    }
+
+    .service div {
+        padding-bottom: 2em;
+    }
+
+    .service div p {
+        padding-bottom: 3em;
+        margin-bottom: 0px;
+
+    }
+
+    /* Our Services each button */
+    .service .m .btn-service,
+    .service .dt .btn-service {
+        max-width: 3fr;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .service .vp .btn-service,
+    .service .wd .btn-service,
+    .service .p .btn-service {
+        position: relative;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    /* service grid */
+    .service {
+        display: grid;
+        grid-template-areas:
+            "header header header header header header"
+            "a a a b b b"
+            "c c d d e e";
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 100px 1fr 0.7fr;
+        column-gap: 1rem;
+    }
+
+    .service h2 {
+        grid-area: header;
+    }
+
+    .dt {
+        grid-area: a;
+    }
+
+    .m {
+        grid-area: b;
+    }
+
+    .vp {
+        grid-area: c;
+    }
+
+    .wd {
+        grid-area: d;
+    }
+
+    .p {
+        grid-area: e;
+    }
+
+    /* Our Vision page*/
+    .vision {
+        background-position: center;
+        background-size: cover;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    /* Our Team page*/
+    .team {
+        margin-left: 6%;
+        margin-right: 6%;
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "a b"
+            "c d";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 1fr 1fr;
+        row-gap: 1em;
+        column-gap: 1em;
+    }
+
+
+    .team h2 {
+        grid-area: header;
+    }
+
+    .john {
+        grid-area: a;
+    }
+
+    .doe {
+        grid-area: b;
+        margin: 0;
+    }
+
+    .bob {
+        grid-area: c;
+        margin: 0;
+    }
+
+    .rite {
+        grid-area: d;
+    }
+
+    /* contact */
+    .contact {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .contactdiv {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /* Send us a message */
+    .contactdiv .message {
+        flex-basis: 60%;
+    }
+
+    .contactdiv form input {
+        border: #222 1px solid;
+        width: 90%;
+        height: 2rem;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .contactdiv form textarea {
+        border: #222 1px solid;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 90%;
+        height: 6rem;
+    }
+
+    /* Google Location */
+    .contactdiv .location {
+        order: 1;
+        flex-basis: 30%;
+    }
+
+    /* Hours of operation */
+    .contactdiv .operation {
+        order: 2;
+        flex-basis: 110%;
+    }
+
+    footer {
+        padding-left: 10%;
+    }
+}
