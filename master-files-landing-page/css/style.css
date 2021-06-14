@@ -103,6 +103,7 @@ body {
     line-height: 3;
 }
 
+
 table {
     border-spacing: 0;
     border-collapse: collapse;
@@ -112,14 +113,13 @@ table {
 body {
     background-color: #f7f7ff;
     font-family: 'Montserrat', sans-serif;
-    color: #333131;
-   
+    color: #333131
 }
 
 header,
 main {
-    padding: 3em;
-  
+    margin-right: 5%;
+    margin-left: 10%;
 }
 
 /* The size in XD which I chose for web*/
@@ -148,6 +148,7 @@ main {
     background-position-x: center;
     background-size:50%;
     background-repeat: no-repeat;
+    margin-left: 4%;
 }
 
 /* "Apply Now" form with the suitable size */
@@ -155,9 +156,9 @@ main {
 .apply {
     background-color: #FFFFFF;
     color: #333131;
-    box-shadow: #333131 5px 10px 1px;
+    box-shadow: #333131 5px 10px 15px;
     position: relative;
-    
+    padding: 30px 25px;
     margin-top: 210px;
     background-size: 50%;
     border-radius: 30px;
@@ -166,7 +167,7 @@ main {
 .apply h2 {
     font-size: 40px;
     font-weight: bold;
-   
+
     position: relative;
     
 }
@@ -243,6 +244,7 @@ label {
 footer {
     background-color: #fffd8c;
     padding: 20px 45px;
+    padding: 0 81.5px;
 }
 
 footer h3 {
@@ -279,7 +281,7 @@ footer form #City {
     border-radius: 16px;
     grid-row: 1/2;
     grid-column: 1/10;
-    width: 40%;
+    width: 35%;
     height: 40px;
 }
 /* "Calculate" bar */
@@ -319,7 +321,7 @@ footer .icons {
 /* The desktop size reference from XD */
 /* changed background and different with table web size and mobile web size */
 @media screen and (min-width: 1920px) {
-    .grid {
+    .maingrid {
         display: grid;
         background-image: url(../images/bg-image/scooter.svg);
         background-size: 819.36px 599.26px;
