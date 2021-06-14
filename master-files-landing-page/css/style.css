@@ -1,0 +1,538 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 3;
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+}
+
+/* Heading 1 - background color and font style & color */
+body {
+    background-color: #f7f7ff;
+    font-family: 'Montserrat', sans-serif;
+    color: #333131;
+   
+}
+
+header,
+main {
+    padding: 3em;
+  
+}
+
+/* The size in XD which I chose for web*/
+header img {
+    width: 114.73px;
+    height: auto;
+}
+
+/* I use the information in XD as a reference */
+header h1 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 96px;
+}
+
+header p {
+    font-size: 24px;
+    padding: 20px;
+    line-height: 29px;
+}
+
+/* The suitable first image which I chose*/
+main {
+    background-image: url(../images/bg-image/scooter.svg);
+    background-position-x: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+/* "Apply Now" form with the suitable size */
+/* From background color which I chose in the XD */
+.apply {
+    background-color: #FFFFFF;
+    color: #333131;
+    box-shadow: #333131 5px 10px 15px;
+    padding:  30px 25px;
+    margin-bottom: 80px;
+    border-radius: 30px;
+    background-size: 50%;
+}
+/* The information form XD */
+.apply h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -0.5em;
+}
+
+.apply p {
+    font-size: 30px;
+}
+
+/* The form information form XD  */
+.apply form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/* The same size and color as XD */
+.apply form input {
+    background-color: #F4F4F5;
+    padding-left: 12px;
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+/* Text area */
+.apply form input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #9B9B9B;
+}
+/* "I agree" border */
+.apply form #agree {
+   border: black 1px solid; 
+   border-radius: 13px;
+   top:13px;
+   width: 29px;
+   height: 29px; 
+   right: -3px;
+   position: relative;
+}
+/* "I agree" content */
+label {
+    float: right;
+    padding: 1px;
+    top: -40px;
+    right: -35px;
+    position: relative;
+    font-size: 20px;
+}
+/* This change the same as XD  */
+.apply form button {
+    background-color: #57eeab;
+    border: none;
+    border-radius: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 25px;
+    margin-bottom: 1em;
+}
+/* Bottom of form content */
+.apply p {
+    font-size: 17px;
+    padding: 2px;
+}
+.apply p a {
+    text-decoration: none;
+    color: #ff8480;
+
+}
+
+/* The footer of website*/
+footer {
+    background-color: #fffd8c;
+    padding: 20px 45px;
+}
+
+footer h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;  
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+
+footer form {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: 68px 224px;
+    grid-template-rows: 40px 40px;
+}
+
+
+/* "Hours" Border */
+footer form #Hours {
+    border-radius: 16px;
+    grid-column: 1/2;
+    grid-row: 1/2;   
+}
+/* "City" Border */
+footer form #City {
+    border-radius: 16px;
+    grid-row: 1/2;
+    grid-column: 1/10;
+}
+/* "Calculate" bar */
+footer form .cal {
+    grid-column: 1/10;
+    grid-row: 2/3;
+}
+/* The same as XD */
+footer form button {
+    background-color: #ff8480;
+    color: #f7f7ff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 16px;
+    padding-top: 5px;
+}
+/* The change is same as XD */
+footer form input::placeholder {
+    color: #9B9B9B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+/* Icons change */
+footer .icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+/* Desktop Web size */
+/* The desktop size reference from XD */
+/* changed background and different with table web size and mobile web size */
+@media screen and (min-width: 1920px) {
+    .grid {
+        display: grid;
+        background-image: url(../images/bg-image/scooter.svg);
+        background-size: 819.36px 599.26px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        
+    }
+
+    /* Different image position  */
+    header,
+    main {
+        background-image: none;
+    }
+
+    /* Use the Gird*/
+    header {
+        max-width: 536px;
+        padding: 15px 105px;
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    header h1 {
+        margin-top: 35%;
+        margin-bottom: 30%;
+    }
+
+    header p {
+        padding: 0;
+    }
+
+    /* "Apply" form position changed in Desktop web size*/
+    /* Desktop size reference from XD */
+    .apply {
+        max-width: 535px;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        position: relative;
+        top: -100px;
+        right: -150px;
+    }
+
+    /* make footer flex to put elements on the same line   */
+    footer {
+        display: flex;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    footer .calculate {
+        max-width: 200px;
+    }
+
+    footer .icons {
+        margin-left: 60%;
+    }
+}
+
+/* Table Web size */
+/* The table size reference from XD */
+@media screen and (min-width: 768px) {
+    header,
+    main {
+        padding: 20px 60px;
+    }
+
+    header h1 {
+        font-size: 80px;
+        line-height: 96px;
+    }
+    
+header p {
+    font-size: 24px ;
+}
+/* Image change */
+    main {
+        padding-top:55%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .apply {
+        margin-bottom: 80px;
+       
+    }
+    .apply p {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .apply .aa {
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 0em;
+    }
+
+    .apply form input::placeholder {
+        font-size: 17px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .apply form #agree {
+        font-size: 20px;
+        margin-top:1.5em;
+    }
+
+    /* The footer change */
+    footer {
+        padding: 70px 70px;
+    }
+/* reference form XD */
+/* "Hours" width 122px, "City" width 260px, same Height 40px, on the same line */
+    footer form {
+        grid-template-columns: 122px 260px 1fr;
+        grid-template-rows: 40px;
+    }
+/* suitable size reference from XD  */
+/* "Hours" form */
+    footer form #Hours {
+        border-radius: 14px;
+        border: none;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding-left: 20px;
+    }
+/* "City" form */
+    footer form #City {
+        border-radius: 14px;
+        border: none;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+/* "Calculate bar */
+    footer form .cal {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+/* Bottom icons */
+/* Size reference form XD */
+    footer .icons {
+        width: 260.5px;
+        padding-left: 40%;
+    }
+}
+/* Mobile Web Size */
+@media screen and (min-width: 375px) {
+    header,
+    main {
+        padding: 10px 30px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+header p {
+    font-size: 24px ;
+}
+/* Image change */
+    main {
+        padding-top:25%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .apply {
+        margin-bottom: 40px;
+       
+    }
+    .apply p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .apply .aa {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 0em;
+    }
+
+    .apply form input::placeholder {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .apply form #agree {
+        font-size: 16px;
+        margin-top:1.5em;
+    }
+
+    /* The footer change */
+    footer {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+/* reference form XD */
+/* "Hours" width 68px, "City" width 224px, same Height 40px, on the same line */
+    footer form {
+        grid-template-columns: 68px 224px 1fr;
+        grid-template-rows: 40px;
+    }
+/* suitable size reference from XD  */
+/* "Hours" form */
+    footer form #Hours {
+        border-radius: 14px;
+        border: none;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding-left: 20px;
+    }
+/* "City" form */
+    footer form #City {
+        border-radius: 14px;
+        border: none;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+/* "Calculate bar */
+    footer form .cal {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+/* Bottom icons */
+/* Size reference form XD */
+    footer .icons {
+        width: 260.5px;
+        padding-left: 10%;
+    }
+}
