@@ -253,8 +253,8 @@ label {
 /* The footer of website */
 footer {
     background-color: #fffd8c;
-    padding: 20px 45px;
     padding: 0 81.5px;
+
 }
 
 footer h3 {
@@ -350,6 +350,7 @@ footer .icons {
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
+
     }
 
     /* Different image position  */
@@ -553,7 +554,6 @@ footer .icons {
     footer {
         padding-left: 55px;
         padding-right: 55px;
-        margin-bottom: 50px;
     }
 
     /* reference form XD */
@@ -590,9 +590,9 @@ footer .icons {
     /* Bottom icons */
     /* Size reference form XD */
     footer .icons {
-        width: 31.52px;
+        width: 230px;
         padding-left: 10%;
-        margin-left: 35%;
+        margin-left: 26%;
         margin-right: 35%;
     }
 }
