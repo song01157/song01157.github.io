@@ -321,12 +321,6 @@ footer form input::placeholder {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
-/* Applicable to the size design of three web pages size*/
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
 
 /* Icons change and I chose the suitable size from XD*/
 footer .icons {
