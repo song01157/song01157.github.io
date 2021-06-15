@@ -338,7 +338,7 @@ footer .icons {
     margin-left: 25%;
 }
 /* Desktop Web size */
-/* The desktop size reference from XD */
+/* All information from XD and change the suitable size for desktop browsing */
 /* changed background and different with table web size and mobile web size */
 @media screen and (min-width: 1920px) {
     .grid {
@@ -400,11 +400,12 @@ footer .icons {
 
     footer .icons {
         margin-left: 60%;
+        width: 30.63px;
     }
 }
 
 /* Table Web size */
-/* The table size reference from XD */
+/* All information from XD and change the suitable size for table browsing */
 @media screen and (min-width: 768px) {
 
     header,
@@ -493,12 +494,13 @@ footer .icons {
     /* Bottom icons */
     /* Size reference form XD */
     footer .icons {
-        width: 260.5px;
+        width: 36px;
         padding-left: 40%;
     }
 }
 
 /* Mobile Web Size */
+/* All information from XD and change the suitable size for mobile browsing */
 @media screen and (min-width: 375px) {
 
     header,
@@ -589,7 +591,7 @@ footer .icons {
     /* Bottom icons */
     /* Size reference form XD */
     footer .icons {
-        width: 260.5px;
+        width: 31.52px;
         padding-left: 10%;
         margin-left: 35%;
         margin-right: 35%;
