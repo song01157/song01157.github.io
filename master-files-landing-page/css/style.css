@@ -162,7 +162,7 @@ main {
     box-shadow: #333131 5px 10px 15px;
     position: relative;
     padding: 30px 25px;
-    margin-top: 210px;
+    margin-top: 135px;
     background-size: 50%;
     border-radius: 30px;
 }
@@ -552,6 +552,7 @@ footer .icons {
     footer {
         padding-left: 55px;
         padding-right: 55px;
+        margin-bottom: 50px;
     }
 
     /* reference form XD */
@@ -590,7 +591,7 @@ footer .icons {
     footer .icons {
         width: 260.5px;
         padding-left: 10%;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
