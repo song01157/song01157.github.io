@@ -321,6 +321,13 @@ footer form input::placeholder {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 /* Icons change */
 footer .icons {
     display: flex;
