@@ -321,7 +321,7 @@ footer form input::placeholder {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
-
+/* Applicable to the size design of three web pages size*/
 input {
     -webkit-appearance: none;
     -moz-appearance: none;
