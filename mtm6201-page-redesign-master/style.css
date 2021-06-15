@@ -1,0 +1,138 @@
+body {
+    background-color: beige;
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* I chose the full-screen effect because it’s easier to watch */
+body #main {
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+/* This is the Title Board and I chose the lightorange for board silde and 3 title board, because it looks clearly ! */
+#nav.nav {
+    width: 90%;
+    margin: 2rem 0px;
+    padding: 4rem;
+
+    border: 0.5rem solid rgb(255, 111, 8);
+    background-color: black;
+    text-align: center;
+}
+
+/* This is the plate decoration of the three titles and used lightorange highlight the 3 titles to make titles more impoprtant and clearly!*/
+#nav.nav .nav-link {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 111, 8);
+    margin-left: 10%;
+}
+/*  Add hover motion will make it interactive */
+#nav.nav .nav-link:hover {
+    background-color: rgba(255, 111, 8, 0.854);
+}
+
+/* This is the Home Title part and I used lightblue background for this part, it looks more colorful */
+/* Font color is black, because it will make content information looks more clearly */
+#home.home {
+    padding: 100px 15px;
+    background-color: lightblue;
+    color: black;
+}
+/* The title uses a different font and size from the content, so that the title can be highlighted. */
+#home.home h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+}
+/* I used sans-serif font for content, because it can make the content look more formal */
+#home.home p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+/* This is the About Me part and I used light background for this part, it looks more colorful like Home part*/
+/* Font color is black, because it will make content information looks more clearly */
+#about.about {
+    padding: 10px 15px;
+    background-color: rgb(235, 206, 235);
+    color: black;
+}
+/* The title uses a different font and size from the content, so that the title can be highlighted. */
+#about.about .section-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+}
+/* I used sans-serif font for content, because it can make the content look more formal */
+#about.about p {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This is the image of About Me part and put this image on the left, then the content layout looks more clearly */
+#about.about .about-image {
+    float: left; 
+    width: 400px;
+}
+
+/* This is the Contact part and I used lightyellow background for this part */
+/* Font color is black, because it will make content information looks more clearly */
+#contact.contact {
+    padding: 100px 20px;
+    background-color: rgb(245, 245, 155);
+    color: black;
+}
+/* The title uses a different font and size from the content, so that the title can be highlighted. */
+#contact.contact h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+}
+/* I used serif font for content, because it can make the content look more formal */
+#contact.contact P {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* I used a darker color than the background to distinguish the table from the overall content */
+#contact.contact .contact-form {
+    padding: 30px;
+    background-color: rgb(199, 228, 168);
+    width: 95%;
+    margin-right: 0;
+}
+/* This is the from layout and I set the appropriate from size which I thought */
+#contact.contact form div.contact-form-section {
+    padding: 1rem 1rem;
+    margin-right: 10%;
+}
+
+#contact.contact form div textarea {
+    border: #222 1px solid;
+    height: 10rem;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+/* I chose the deep color for Send Message button, because it looks more clearly and can show user where they can send their thoughts */
+#contact.contact form button {
+    padding: 1rem;
+    background-color: gainsboro;
+    margin-left: calc(4% - 4rem);
+    font-size: 2rem;
+}
+
+body footer {
+    padding: 2rem;
+    padding-left: 2em;
+    font-size: 1.5rem;
+}
+/* Thanks for checking my homework ^ ^ */
