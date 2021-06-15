@@ -322,7 +322,13 @@ footer form input::placeholder {
     font-size: 16px;
 }
 
-/* Icons change and I chose the suitable size from XD */
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Icons change and I chose the suitable size from XD*/
 footer .icons {
     display: flex;
     justify-content: space-evenly;
