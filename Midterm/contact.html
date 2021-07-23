@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---- Title ---->
     <title>Ice cream of Song</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="picture" href="image/logo.png">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header>
+        <!---- LOGO image ---->
         <div class="logo">
-            <a href="contact.html">
                 <source media="(min-width: 375px) 375px, (max-width: 768px) 768px, (max-width: 1920px) 1920px,"
                     src="image/logo.png">
-                <img src="image/logo.png" alt="logo" style="width:10%;">
+                <img src="image/logo.png" alt="logo" style="width:15%;">
             </a>
         </div>
         <div>
 
-            <!-- Navigation -->
+            <!---- Navigation ---->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -35,41 +36,59 @@
         </div>
     </header>
     <main>
+        <!---- Add image cream9 ---->
         <div class="cream9">
             <img src="image/cream9.png" alt="cream9">
         </div>
+        
+        <!---- Heading 1 content ---->
         <h1>Our Story</h1>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro inventore odit vitae similique adipisci asperiores cum reprehenderit ea aspernatur maiores quasi ullam, saepe, fuga quidem provident ad dolorum iste aliquam.</h2>
-        <div class="cream10">
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro inventore odit vitae similique adipisci asperiores cum reprehenderit ea aspernatur maiores quasi ullam, saepe, fuga quidem provident ad dolorum iste aliquam,dolor sit amet consectetur adipisicing elit. Non fugit odit maiores commodi fugiat voluptate quo exercitationem totam eligendi ratione reiciendis similique rerum, id laboriosam numquam, labore explicabo velit perspiciatis.</p>
+        <!---- Add image cream10 ---->
+            <div class="cream10">
             <img src="image/cream10.png" alt="cream10">
         </div>
-        <h3>Know Us more</h3>
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro inventore odit vitae similique adipisci asperiores cum reprehenderit ea aspernatur maiores quasi ullam, saepe, fuga quidem provident ad dolorum iste aliquam.</h4>
-        <div class="apply">
-            <h2>Apply Now</h2>
-            <p>Enter your info below</p>
-
-            <!-- The first type form of the "Apply Now" -->
+        
+        <!---- Heading 2 content ---->
+        <div class="know">
+        <h2>Know Us more</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro inventore odit vitae similique adipisci asperiores cum reprehenderit ea aspernatur maiores quasi ullam, saepe, fuga quidem provident ad dolorum iste aliquam,dolor sit amet consectetur adipisicing elit. Non fugit odit maiores commodi fugiat voluptate quo exercitationem totam eligendi ratione reiciendis similique rerum, id laboriosam numquam, labore explicabo velit perspiciatis.</p></div>
+        
+        <!-- Heading 3 content -->
+        <div class="contact">
+            <h3>CONTACT US HERE!</h3>
+            <p>Please enter your info below to get started.</p>
+            
+            <!-- Add From -->
             <form action="#" method="POST">
-                <!-- "First name" -->
+                <!-------- "First name" --------->
                 <label for="First_name"></label>
                 <input type="text" id="First_name" name="First_name" placeholder="First name" required>
-                <!-- "Last name" -->
+                <!-------- "Last name" -------->
                 <label for="Last_name"></label>
                 <input type="text" id="Last_name" name="Last_name" placeholder="Last name" required>
-                <!-- "Email address" -->
+                <!-------- "Email address" -------->
                 <label for="Email_address"></label>
                 <input type="email" id="Email_address" name="Email_address" placeholder="Email Address" required>
-                <!-- "Phone number" -->
+                <!-------- "Phone number" -------->
                 <label for="Phone_number"></label>
                 <input type="text" id="Phone_number" name="Phone_number" placeholder="Phone number" required>
-                <!-- The checkbox  -->
+                <!-------- The checkbox  -------->
                 <input type="checkbox" id="agree" name="agree">
                 <label for="agree" id="I_agree">I agree to get my info</label>
-                <!-- "DRIVE WITH US" Button -->
-                <button class="drive" type="submit">SEND</button>
+                <!-- "SEND" Button -->
+                <button class="button"><span>SEND</span></button>
             </form>
-            <div class="arrow">
-                <img src="image/arrow.png" alt="arrow" style="width: 10%;">
             </div>
+
+            <!---- Add Google map ---->
+            <iframe class="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567607!2d-75.7571254843203!3d45.34992777909977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1625518141159!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>       
     </main>
+    <footer>
+        <div class="copyright">Copyright &#169; Ice Cream of Song</div>
+        <div class="icons">
+            <a href="#"><img src="image/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="image/twitter.png" alt="twitter"></a>
+            <a href="#"><img src="image/facebook.png" alt="facebook"></a>  
+    </footer>
+    </html>
