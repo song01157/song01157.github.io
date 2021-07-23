@@ -1,107 +1,116 @@
 /* Home page */
-body{
+body {
     background-color: #FCFAD8;
     padding: 30px 22px;
     max-width: 1920px;
     margin: 0 auto;
-    
+
 }
+
 /* Add a background image to decorated header */
 header {
     background-image: url(../image/iceb.png);
 }
+
 /* The website logo image */
 .logo img {
     background-image: url(../image/logo.png);
-    width:15%;
+    width: 15%;
     height: auto;
     margin-top: 2em;
     margin-left: 1em;
- }
+}
+
 /* Navigation */
-header nav{
-    flex-direction:column;
+header nav {
+    flex-direction: column;
     align-items: center;
     position: relative;
     bottom: 10rem;
     margin-right: 2em;
-   
-}  
+
+}
+
 header nav ul {
     display: flex;
     justify-content: space-around
-
 }
-header nav ul li{
+
+header nav ul li {
     list-style: none;
 }
+
 header nav ul li a {
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 0;
-        color: black;
-        margin-left: 2.5em;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    color: black;
+    margin-left: 2.5em;
 }
 
 /* make navigation hover make nav bar looks more vivid */
 header nav ul li a:hover {
-   background-color: white;
+    background-color: white;
 }
+
 /* Made h1 center */
-main h1{
+main h1 {
     font-size: 10px;
     font-family: Arial, black;
     line-height: 2.5rem;
-    margin-right:auto;
+    margin-right: auto;
     margin-left: 3.5em;
     text-align: center;
     height: auto;
- }
+}
 
- main p{
-     font-size: 20px;
-     font-family:Arial, Helvetica, sans-serif;
+main p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 13em;
- }
+}
 
- /* Made mianpic image center */
- /* Size reference from XD*/
-main .mainpic .center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  padding: 1em 3em;
+/* Made mianpic image center */
+/* Size reference from XD*/
+main .mainpic .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1em 3em;
 }
 
 /* Make button looks not too bright */
 /* Chose suitable size in the homepage */
 /* Put button on the left of website */
 button {
-width: 30%;
-background-color: rgba(221, 168, 214, 0.343);
+    width: 30%;
+    background-color: rgba(221, 168, 214, 0.343);
 }
 
 /* Change button fonts size */
 .more {
     font-size: 35px;
 }
+
 /* I created an overlay of the pictures to look more vivid. */
-.iceview{
- background-image: url(../image/iceview.png);
-margin-bottom: 5em;
+.iceview {
+    background-image: url(../image/iceview.png);
+    margin-bottom: 5em;
 }
+
 /* Design similar to a banner or dividing line */
-.icecream-4 img{
+.icecream-4 img {
     width: 100%;
     padding: 4em 0em;
 }
+
 /* Ice cream location in Google Map */
-.map{
-    width:100%;
+.map {
+    width: 100%;
 }
 
 footer {
@@ -113,42 +122,45 @@ footer {
     font-style: italic;
     font-size: 25px;
 }
+
 /* Homepage End */
 
 
 /* About page */
 /* Make h1 in the center of webpage */
-main h1{
+main h1 {
     width: 70%;
     font-size: 80px;
     font-family: Arial, black;
     line-height: 2.5rem;
-    margin-right:auto;
+    margin-right: auto;
     margin-left: 2.5em;
     text-align: center;
 }
+
 /* Chose a suitable size for slideshow  */
-main .slideshow{
+main .slideshow {
     width: 100%;
     height: auto;
     margin-left: 1.6em;
     margin-right: auto;
 }
+
 /* image size */
-main img{
+main img {
     width: 70%;
-    padding:2em 11em;
+    padding: 2em 11em;
 }
 
 main .input {
-    width:90%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding-right: 6em;
 }
 
 /* Container holding the image and the text */
-main .container{
+main .container {
     color: black;
     padding-bottom: 2em;
     position: relative;
@@ -156,18 +168,18 @@ main .container{
 }
 
 /* Centered text */
-main .centered{
+main .centered {
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
-      
+
 }
 
 /* Centered text 2 */
-main .centered2{ 
+main .centered2 {
     font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
@@ -177,9 +189,9 @@ main .centered2{
 }
 
 /* Bottom right text */
-main .bottom-left{
+main .bottom-left {
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 8px;
     left: 16px;
@@ -187,46 +199,50 @@ main .bottom-left{
     width: 60%;
     left: 20%;
 }
+
 /* About page End */
 
 /* Contact Page */
 /* Part 1 content */
 /* Chose suitable size match webpage */
-main p{
-    font-size:20px;
+main p {
+    font-size: 20px;
     padding-right: 15em;
     margin-bottom: 3em;
 }
 
-.cream9 img{
+.cream9 img {
     width: 100%;
     padding: 4em 0em;
 }
 
-.cream10 img{
+.cream10 img {
     width: 100%;
     padding: 4em 0em;
 }
+
 /* Part2 content */
 main .know {
     margin-bottom: 2em;
 }
+
 /* Make content center */
-main .know h2{
+main .know h2 {
     width: 70%;
     font-size: 60px;
     font-family: Arial, black;
     line-height: 2.5rem;
-    margin-right:auto;
+    margin-right: auto;
     margin-left: 2.5em;
     text-align: center;
 }
 
-main .know p{
-    font-size:20px;
+main .know p {
+    font-size: 20px;
     padding-right: 15em;
     margin-bottom: 3em;
 }
+
 /* "Contact" form with the suitable size */
 /* From background color which I chose reference form XD */
 .contact {
@@ -249,12 +265,13 @@ main .know p{
     position: relative;
 
 }
+
 .contact p {
     font-size: 20px;
     margin-top: 1em;
-    margin-right:auto;
-    margin-left:auto ;
-    
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 /* The form information form XD  */
@@ -300,8 +317,9 @@ label {
     right: -35px;
     position: relative;
     margin-right: 25em;
-    
+
 }
+
 /* Put map on the bottom-right in the webpage */
 .map2 {
     width: 40%;
@@ -317,7 +335,7 @@ label {
 /* The Second Animation */
 
 /* Made the second animation for form button */
-.contact form button{
+.contact form button {
     background-color: #3F5891;
     color: #FFFFFF;
     border: none;
@@ -331,92 +349,91 @@ label {
     cursor: pointer;
     margin: 5px;
 }
+
 /* Make the button dynamic */
-  .button span {
+.button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .button span:after {
+}
+
+.button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  .button:hover span {
+}
+
+.button:hover span {
     padding-right: 25px;
-  }
-  
-  .button:hover span:after {
+}
+
+.button:hover span:after {
     opacity: 1;
     right: 0;
-  }
-  /* Contact Page End */
-
-  /* Desktop size */
-@media screen and (min-width:1920px){
-header { 
-    background-image: url(../image/iceb.png);
-    padding-top:2em;
 }
 
-/* Chose a suitable logo size for Desktop */
-.logo {
-   width: 100%;
-}
+/* Contact Page End */
 
-/* Suitable nav bar size for Desktop */
-header nav {
-    padding-left: 10%;
-    padding-right: 10%;
-    top:-90px;
-}
+/* Desktop size */
+@media screen and (min-width:1920px) {
+    header {
+        background-image: url(../image/iceb.png);
+        padding-top: 2em;
+    }
 
-main img{
-    max-width: 760px;
-}
-/* Add flex */
-.slideshow{
-    display: flex;
-}
-/* Change button size for Desktop */
-.container .more{
-    top: 50px;
-}
+    /* Chose a suitable logo size for Desktop */
+    .logo {
+        width: 100%;
+    }
+
+    /* Suitable nav bar size for Desktop */
+    header nav {
+        padding-left: 10%;
+        padding-right: 10%;
+        top: -90px;
+    }
+
+    main img {
+        max-width: 760px;
+    }
+
+    /* Add flex */
+    .slideshow {
+        display: flex;
+    }
+
+    /* Change button size for Desktop */
+    .container .more {
+        top: 50px;
+    }
 
 }
 
 /* Tablet */
 /* Chose a suitable logo size for Tablet */
-@media screen and (min-width:768px){
-.logo{
-    width:80%;
-}
+@media screen and (min-width:768px) {
+    .logo {
+        width: 80%;
+    }
 
-header nav {
-    padding-left: 10%;
-    padding-right: 10%;
-    top:-80px;
-}
+    header nav {
+        padding-left: 10%;
+        padding-right: 10%;
+        top: -80px;
+    }
 
-.slide img {
-    width:30%;
-}
+    .slide img {
+        width: 30%;
+    }
 
-.container{
-    right:0.5em;
-}
+    .contact form {
+        width: 100%;
 
-.contact form{
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
-}
-
+    }
 }
 
 /* Thanks for checking my homework ^ ^ */
