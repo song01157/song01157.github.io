@@ -9,7 +9,7 @@ body {
 
 /* Add a background image to decorated header */
 header {
-    background-image: url(../image/iceb.png);
+    background-image: url(../image/iceb1.png);
 }
 
 /* The website logo image */
@@ -382,7 +382,7 @@ label {
 /* Desktop size */
 @media screen and (min-width:1920px) {
     header {
-        background-image: url(../image/iceb.png);
+        background-image: url(../image/iceb1.png);
         padding-top: 2em;
     }
 
