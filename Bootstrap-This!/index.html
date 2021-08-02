@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Bootstrap This!</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid navbar-expand-lg navbar-light bg-light">
+        <div class="row">
+
+            <!-- Heading 1 -->
+            <h1 class="col-md-auto offset-lg-4">Welcome to Bootstrap!</h1>
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Know More</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+
+
+        </nav>
+
+        <!-- Add image for homepage -->
+        <img src="image/Bootstrap.png" class="container-fluid" alt="background image">
+
+        <!-- Main content -->
+        <main class="container">
+            <section class="bg-light">
+
+                <!-- Introduction page -->
+                <h2 class="display-3">Introduction</h2>
+
+                <!-- Introduction page content -->
+                <!-- Use bootstrap grid to tidy the content -->
+                <div class="row row-cols-1 row-cols-lg-1">
+
+                    <!-- Add border and border color for content 1 -->
+                    <div class="border border-warning">
+                        <h3 class="border-title display-6">Open Source</h3>
+                        <!-- create the small secondary heading text  -->
+                        <p class="display-">Bootstrap is an open source toolkit for developing with <small
+                                class="text-muted">HTML</small>, <small class="text-muted">CSS</small>, and <small
+                                class="text-muted">JS</small>. Quickly prototype your ideas or build your entire app
+                            with our Sass variables and mixins, responsive grid system, extensive prebuilt
+                            components, and powerful plugins built on jQuery.</p>
+                    </div>
+
+                    <!-- Add border and border color for content 2 -->
+                    <div class="border border-warning">
+                        <h3 class="border-title display-6">Mobile First</h3>
+                        <p>Bootstrap includes a powerful mobile-first flexbox grid to build layouts of all shapes
+                            and sizes thanks to a twelve column system, five default responsive tiers, Sass
+                            variables and mixins, and dozens of predefined classes.</p>
+                    </div>
+
+                    <!-- Add border and border color for content 3 -->
+                    <div class="border border-warning">
+                        <h3 class="border-title display-6">Components Library</h3>
+                        <p>Bootstrap comes with an extensive components library that includes buttons and lists to
+                            carousels and modals. Components are easy to integrate into any site and require no
+                            knowledge of JavaScript to use.</p>
+                    </div>
+
+                    <!-- Add border and border color for content 4 -->
+                    <div class="border border-warning">
+                        <h3 class="border-title display-6">Components</h3>
+                        <p>Bootstrap comes with nearly two dozen components that are ready to use right out of the
+                            box.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-light">
+                <h2 class="display-3">Bootstrap functions</h2>
+                <div class="row">
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+
+                        <!-- Use grid for buttons -->
+                        <!-- These buttons all can be clicked to enter the corresponding webpage -->
+                        <!-- These buttons also show the functions which from bootstrap that I used in this homework -->
+                        <a href="https://getbootstrap.com/docs/5.0/layout/grid/" class="btn btn-primary"
+                            role="button">Grid</a>
+                        <a href="https://getbootstrap.com/docs/5.0/layout/columns/" class="btn btn-success"
+                            role="button">Columns</a>
+                        <a href="https://getbootstrap.com/docs/5.0/components/navbar/" class="btn btn-danger"
+                            role="button">Navbar</a>
+                        <a href="https://getbootstrap.com/docs/5.0/content/images/" class="btn btn-warning"
+                            role="button">Images</a>
+                        <a href="https://getbootstrap.com/docs/5.0/components/buttons/" class="btn btn-info"
+                            role="button">Buttons</a>
+                        <a href="https://getbootstrap.com/docs/5.0/components/button-group/" class="btn btn-light"
+                            role="button">Button Group</a>
+                        <a href="https://getbootstrap.com/docs/5.0/content/typography/" class="btn btn-dark"
+                            role="button">Typography</a>
+                    </div>
+                </div>
+
+                <!-- Know More page -->
+                <h2 class="display-3">Want to know Bootstrap more?</h2>
+                <h3><small class="text-muted">Please click below↓</small></h3>
+                <div class="bg-light">
+                    <div class="col">
+                        <!-- Add a link to Bootstrap page -->
+                        <a href="https://getbootstrap.com/" class="btn btn-primary" role="button">Welcome to Bootstrap page!</a>
+                    </div>
+                </div>
+            </section>
+    </div>
+    </main>
+
+    <!-- Add footer -->
+    <div class="container-fluid footer-expand-lg footer-light bg-light">
+        <div class="row">
+            <footer class="footer footer-dark bg-dark">
+                <p class="text-white text-center">&copy;Copyright 2021 by Danang Song</p>
+        </div>
+    </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html>
+<!-- Thanks for checking my homework -->
