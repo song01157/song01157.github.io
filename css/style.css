@@ -1,0 +1,338 @@
+:root {
+  --background-color: rgb(213, 204, 204);
+  --main-text: black;
+}
+
+* {box-sizing: border-box}
+
+body{
+  
+  background-color: var(--background-color);
+}
+
+/*     Homepage     */
+
+
+/* Change suitable size for search button */
+.form button{
+  width: 23%;
+}
+
+h1{
+  font-family: "Audiowide", sans-serif;
+  color: var(--main-text);
+}
+
+h2,
+h3 {
+  color: var(--main-text);
+}
+
+p{
+font-size: 20px;
+color: var(--main-text);
+}
+
+.more{
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.more :hover{
+  background-color: #bbb;
+}
+
+
+button{
+ width: 20%;
+ background-color: #99c8f2;
+ border: none;
+}
+
+/* Slide show size */
+main .slideshow {
+  height: auto;
+  margin-left: auto;
+  
+}
+
+/* image size */
+main .slideshow img {
+  width:100%;
+  padding: 2em 11em;
+}
+/*     Homepage end     */
+
+
+
+/*      About page     */
+/* ABOUT page card */
+#container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Four image containers */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 1px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+/* The flip card container  */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: none;
+    perspective: 1000px; 
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-card-front {
+    background-color: #bbb;
+    color: white;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    float:left;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+  }
+  
+  .flip-card-back {
+    background-color: white;
+    transform: rotateY(180deg);
+  }
+/*     About page end     */
+
+
+
+/*     Portfolio page     */
+/* Three image containers */
+.title h2{
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.work .column {
+  float: left;
+  width: 48%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Contact Page */
+/* Style inputs with type="text", select elements and text areas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add hover for button */
+input[type=submit]:hover {
+  background-color: rgba(0, 0, 0, 0.271);
+}
+
+.info {
+  padding-top: 30px;
+}
+.info h3{
+  font-size: 35px;
+}
+.info p {
+  font-size: 20px;
+}
+
+/* Contact page end */
+
+/* Footer */
+footer .icons{
+padding-top: 20px;
+}
+
+footer h2{
+  padding-top: 25px;
+}
+
+.map{
+  width:100%;
+}
+/* Footer end */
+
+
+
+/* Chose a suitable logo size for Tablet */
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 50%;
+}
+
+h1{
+  font-size: 35px;
+}
+ 
+h2{
+ font-size:15px;
+ }
+
+ h3{
+   font-size:10px;
+ }
+
+p{
+font-size: 15px;
+}
+
+.slideshow{
+   width:50%;
+}
+
+.mainct{
+  width: 50%;
+}
+
+#container .container{
+  width:50%;
+}
+form{
+  width:50%;
+}
+
+}
+
+/* Chose a suitable logo size for Mobile */
+@media screen and (max-width: 300px) {
+
+  .logo {
+    width: 30%;
+}
+
+h1{
+  font-size: 25px;
+}
+ 
+h2{
+ font-size:13px;
+ }
+
+ h3{
+   font-size:10px;
+ }
+
+p{
+font-size: 10px;
+}
+
+.slideshow{
+   width:30%;
+}
+
+.mainct{
+  width: 30%;
+}
+
+#container .container{
+  width:30%;
+}
+form{
+  width:30%;
+}
+
+}
+/* Thanks for checking my homework */
+/* Very happy to have class with you ^ ^*/
