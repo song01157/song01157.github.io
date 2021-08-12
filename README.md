@@ -6,6 +6,8 @@ For website content, I created a total of four web pages, the first is Homepage,
 
 Then I added the characteristic discourse "We are committed to interactive media design." of the institute website I designed on almost every page. This is also one of the characteristics that can highlight the institute's different characteristics.
 
+I think that creating an interactive media webpage is also an interesting challenge. I have used the knowledge we have learned. At the same time, in order to make this website look more authentic, I used some animations and borrowed some pictures and materials. I think The most interesting place I created is the flip card on the About page, which makes the introduction of people on the site look more interesting. I think I still need to improve the viewing effect of the overall page, but in the future, I will work harder to make the visual effect of the web page better and better.
+
 Images source:
 1.https://lancedadivas.home.blog/2019/03/13/interactive-websites/
 2.https://pixabay.com/photos/background-website-plant-wall-2691002/
