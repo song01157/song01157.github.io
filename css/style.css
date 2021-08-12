@@ -286,6 +286,19 @@ font-size: 15px;
   width: 50%;
 }
 
+.sec img{
+  width:30%;
+}
+
+.flip-card img{
+  width:30%;
+}
+
+.worktime img{
+
+width:30%;
+
+}
 #container .container{
   width:50%;
 }
@@ -296,7 +309,7 @@ form{
 }
 
 /* Chose a suitable logo size for Mobile */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 372px) {
 
   .logo {
     width: 30%;
@@ -323,12 +336,28 @@ font-size: 10px;
 }
 
 .mainct{
-  width: 30%;
+  width: 40%;
+}
+
+.sec img{
+  width:15%;
+}
+
+
+.flip-card img{
+  width:15%;
+}
+
+.worktime img{
+
+width:30%;
+
 }
 
 #container .container{
   width:30%;
 }
+
 form{
   width:30%;
 }
